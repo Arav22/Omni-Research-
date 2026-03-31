@@ -1,0 +1,20 @@
+[project]
+name = "omni-research"
+version = "1.0.0"
+description = "Production-grade parallel multi-agent research engine powered by PydanticAI and LangGraph"
+requires-python = ">=3.10"
+dependencies = [
+    "colorama>=0.4.6",
+    "httpx>=0.28.1",
+    "langchain-core>=1.2.23",
+    "langgraph>=1.1.3",
+    "langsmith>=0.7.23",
+    "openai>=2.30.0",
+    "orjson>=3.11.7",
+    "pydantic>=2.12.5",
+    "pydantic-ai>=1.74.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+    "tavily-python>=0.7.23",
+    "typing-extensions>=4.15.0",
+]
